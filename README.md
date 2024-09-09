@@ -1,8 +1,2 @@
 # Predicting-Hazardous-NEOs-Nearest-Earth-Objects-
-In this project, you will work with a real-world dataset that tracks Nearest Earth Objects (NEOs)
-observed by NASA from 1910 to 2024. The dataset contains 338,199 records, each representing
-an object in space that has been monitored for its proximity to Earth. Some of these objects are
-classified by NASA as "is_hazardous," indicating that they pose a potential danger to our planet.
-Your task is to train a machine learning model that can accurately predict whether a NEO is
-hazardous or not. This is a critical task, as the ability to accurately identify dangerous objects
-could be vital for planetary defense.
+In this project, we aimed to predict whether an asteroid is potentially hazardous based on various features such as absolute magnitude, estimated diameter, relative velocity, and miss distance. Through exploratory data analysis (EDA), we identified important trends and patterns, which provided valuable insights into the distribution of asteroid characteristics. After handling missing data and preprocessing, we addressed the class imbalance of hazardous vs. non-hazardous asteroids using the SMOTE technique to oversample the minority class. We then trained a Random Forest Classifier, which was evaluated using metrics such as precision, recall, F1-score, and the ROC-AUC curve. The model demonstrated balanced performance, with good accuracy in classifying both hazardous and non-hazardous asteroids. Visualization of the ROC-AUC curve and confusion matrix helped highlight the model’s effectiveness, particularly in reducing false positives and false negatives. Overall, this project showcases the potential of machine learning in improving the detection and classification of hazardous asteroids, contributing to planetary defense initiatives and future research.
